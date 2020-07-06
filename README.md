@@ -1,4 +1,4 @@
-# sequence-allignment
+# sequence-allignment - \[closed, not accepting submission yet\]
 
 ## Deskripsi Masalah
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Sequence alignment* (pensejajaran sekuens) merupakan sebuah teknik dalam bioinformatika untuk melakukan pensejajaran antara dua buah string sekuens, misalkan sekuens asam amino atau nukleotid. Teknik ini banyak dipakai, misalkan dalam melakukan pencarian dalam sebuah basis data genom ataupun mengetahui keterkaitan organisme dalam studi filogeni.<br>
@@ -13,7 +13,7 @@ Terdapat dua titik capai dalam tugas ini :
 ## Aturan
 1. Bahasa yang digunakan adalah bahasa prosedural yang sudah dipelajari selama kuliah : C, C++, Java, Python.
 2. Anda boleh mencari kode referensi, namun pastikan anda **menulis kode sendiri**. Pemahaman menjadi bagian penting dari penilaian.
-3. **Tidak diperbolehkan** menggunakan pustaka yang mengimplementasikan kedua algoritma, misal parasail atau BioPython.
+3. **Tidak diperbolehkan** menggunakan pustaka yang mengimplementasikan kedua algoritma, misal parasail atau BioPython. Usahakan untuk tidak menggunakan pustaka lain di luar pustaka standar / built-in.
 4. Gunakan file eksternal untuk melakukan pensejajaran. File eksternal berupa : (a) data (sekuens alfabet) , (b) scoring matrix , (c) alfabet sekuens.
 5. Berkaitan dengan nomor 4, pastikan anda dapat mengubah alfabet dari sekuens dan scoring matrix. Misalkan, alfabet pensejajaran sekuens basa nukleotid adalah ACGT, dan terdapat 20 alfabet untuk pensejajaran sekuens asam amino. Untuk scoring matrix pensejajaran asam amino, anda dapat menggunakan matriks PAM250.
 6. Format untuk nomor (4) dan (5) dibebaskan.
@@ -23,9 +23,9 @@ Terdapat dua titik capai dalam tugas ini :
 
 ## Pengumpulan
 ### Deliverables
-1. File yang berisi hasil pensejajaran sekuens global. Kirim dalam bentuk terpisah. Misal , hasil pensejajaran antara sekuens pertama (file1.txt) dan sekuens kedua (file2.txt) ditulis sebagai file1-file2.txt. Simpan dalam sebuah folder baru [result]. Format sebagai berikut : Misalkan dua buah sekuens yang diujicoba adalah ATGTTATA dan ATCGTCC , dengan pensejajaran global adalah AT_GTTATA dan ATCGT_C_C, maka baris pertama file adalah AT_GTTATA dan baris kedua adalah ATCGT_C_C. Bila pensejajaran dilakukan untuk lebih dari dua sekuens, format file mirip namun dengan baris yang lebih banyak. Tampilkan skor pensejajaran di awal.
-2. Kode Sumber
-3. Ubah Readme ini. Tuliskan pendekatan pensejajaran yang anda lakukan dan cara menjalankan program
+1. File yang berisi hasil pensejajaran sekuens global. Misal , hasil pensejajaran antara sekuens pertama (file1.txt) dan sekuens kedua (file2.txt) ditulis sebagai file1_file2.txt. Simpan semua hasil pensejajaran dalam sebuah folder [result]. Format sebagai berikut : Misalkan dua buah sekuens yang dicoba adalah ATGTTATA dan ATCGTCC dengan pensejajaran global adalah AT_GTTATA dan ATCGT_C_C, maka baris pertama file adalah AT_GTTATA dan baris kedua adalah ATCGT_C_C. Bila pensejajaran dilakukan untuk lebih dari dua sekuens, format file mirip namun dengan baris yang lebih banyak. Tampilkan skor pensejajaran di awal.
+2. Kode Sumber. Bila anda menggunakan bahasa *compiled*, tuliskan cara melakukan kompilasi.
+3. Ubah Readme ini. Tuliskan pendekatan pensejajaran yang anda lakukan dan cara menjalankan program.
 
 ### Teknis Pengumpulan
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kumpulkan dengan membuat *merge request* pada *repository* ini. Batas pengumpulan dan demo adalah 29 Juli 2020.
@@ -38,7 +38,10 @@ Terdapat dua titik capai dalam tugas ini :
 Nilai maksimal 1700 untuk *milestone* pertama, dan nilai maksimal *1500* untuk milestone kedua. Nilai maksimal demo adalah *800*, sehingga nilai maksimal total adalah 4000.<br>
 
 ## Kontak
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Silahkan hubungi asisten lewat line @alamhasabiebaru atau lewat email 13517096@std.stei.itb.ac.id dengan subjek diawal tulisan \[SELEKSI IRK\] . *Note : waktu menjawab bervariasi, namun email biasanya akan dibalas kurang dari sehari. Line mungkin tidak dibalas dalam waktu satu-dua hari. Mohon bersabar :)*. Pertanyaan juga dipersilahkan. Jawaban akan diposting dalam bagian QnA README ini.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Silahkan hubungi asisten lewat line @alamhasabiebaru atau lewat email 13517096@std.stei.itb.ac.id dengan subjek  \[SELEKSI IRK - SEQUENCE ALIGNMENT\] . *Note : waktu menjawab bervariasi, namun email biasanya akan dibalas kurang dari sehari. Line mungkin tidak dibalas dalam waktu satu-dua hari. Mohon bersabar :)*. Pertanyaan juga dipersilahkan. Jawaban akan diposting dalam bagian QnA README ini.
+
+## QnA
+null.
 
 ## Referensi
 Silahkan gunakan referensi berikut sebagai awal pengerjaan tugas:<br>
