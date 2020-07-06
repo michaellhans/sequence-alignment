@@ -1,4 +1,4 @@
-# sequence-allignment - \[closed, not accepting submission yet\]
+# sequence-alignment - \[closed, not accepting submission yet\]
 
 ## Deskripsi Masalah
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Sequence alignment* (pensejajaran sekuens) merupakan sebuah teknik dalam bioinformatika untuk melakukan pensejajaran antara dua buah string sekuens, misalkan sekuens asam amino atau nukleotid. Teknik ini banyak dipakai, misalkan dalam melakukan pencarian dalam sebuah basis data genom ataupun mengetahui keterkaitan organisme dalam studi filogeni.<br>
