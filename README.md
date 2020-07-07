@@ -22,6 +22,7 @@ Terdapat dua titik capai dalam tugas ini :
 ## Tips
 [1]Pemrograman dinamis pensejajaran global yang naif, sayangnya memiliki kompleksitas ruang eksponensial. Sebagai contoh, bila anda membandingkan dua buah sekuens DNA dengan panjang ~29000, anda akan memerlukan ruang sekitar 29000 x 29000 ~ 784.000.000. Beberapa komputer mungkin tidak memiliki cukup memori. Gunakan *DnC* untuk membantu mengurangi kompleksitas ruang<br>
 [2]Anda bisa saja menggunakan Needleman-Wunsch n-dimensi untuk melakukan MSA, akan tetapi ingat bahwa kompleksitasnya eksponensial terhadap jumlah sekuens. Anda disarankan menggunakan *progressive alignment* dengan menggunakan profiling.<br>
+[3] Anda dapat membuat 2 buah algoritma untuk perbanding antar sekuens dan perbandingan antar profil. Coba anda ubah agar anda melakukan keduanya secara langsung, sehingga mengurangi beban kerja anda.
 
 ## Pengumpulan
 ### Pengerjaan
