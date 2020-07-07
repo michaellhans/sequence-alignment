@@ -1,5 +1,6 @@
 # sequence-alignment - \[closed, not accepting submission yet\]
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/RPLP0_90_ClustalW_aln.gif/640px-RPLP0_90_ClustalW_aln.gif">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/RPLP0_90_ClustalW_aln.gif/640px-RPLP0_90_ClustalW_aln.gif" width="50%" height="50%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/25/An_excerpt_of_a_multiple_sequence_alignment_of_TMEM66_proteins.png" width="50%" height="50%">
 ## Deskripsi Masalah
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Sequence alignment* (pensejajaran sekuens) merupakan sebuah teknik dalam bioinformatika untuk melakukan pensejajaran antara dua buah string sekuens, misalkan sekuens asam amino atau nukleotid. Teknik ini banyak dipakai, misalkan dalam melakukan pencarian dalam sebuah basis data genom ataupun mengetahui keterkaitan organisme dalam studi filogeni.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dua buah sekuens DNA bisa memiliki susunan basa nukleotida yang berbeda, namun keduanya bisa memiliki sub-sekuens yang mirip. Misalkan, dua buah sekuens ACTGGTA dan TGTGGTC memiliki sub-sekuens yang sama (TGGT). Sub-sekuens ini disebut *conserved sequence*. Salah satu tujuan pensejajaran adalah mengidentifikasi bagian yang mirip. Dengan mengetahui pensejajaran DNA antar dua organisme, kita dapat mengetahui hubungan dan perubahan evolusioner yang terjadi antar dua organisme.<br>
