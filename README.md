@@ -46,7 +46,7 @@ Silahkan lakukan *fork* dari *repository* ini.
 
 ## Penilaian
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uji cobakan algoritma anda dengan data yang telah disediakan di *repository* ini. Percobaan minimal menghasilkan 3 pensejajaran global untuk kasus 2 sekuens, 2 pensejajaran global kasus 3 sekuens, 1 pensejajaran global untuk kasus 4 sekuens.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nilai maksimal 1300 untuk *milestone* pertama, dan nilai maksimal 1700 untuk milestone kedua. Nilai maksimal demo adalah 1000, sehingga nilai maksimal total adalah 4000. Algoritma anda **wajib optimum** untuk pensejajaran global 2 sekuens. Akan tetapi, algoritma anda tidak harus optimum untuk MSA. Implementasi MSA lebih kepada *proof-of-concept*.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nilai maksimal 1300 untuk *milestone* pertama, dan nilai maksimal 1700 untuk milestone kedua. Nilai maksimal demo adalah 800, sehingga nilai maksimal total adalah 3800. Algoritma anda **wajib optimum** untuk pensejajaran global 2 sekuens. Akan tetapi, algoritma anda tidak harus optimum untuk MSA. Implementasi MSA lebih kepada *proof-of-concept*.
 
 ## Kontak
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Silahkan hubungi asisten lewat line @alamhasabiebaru atau lewat email 13517096@std.stei.itb.ac.id dengan subjek  \[SELEKSI IRK - SEQUENCE ALIGNMENT\] . *Note : waktu menjawab bervariasi, namun email biasanya akan dibalas kurang dari sehari. Line mungkin tidak dibalas dalam waktu satu-dua hari. Mohon bersabar :)*. Pertanyaan juga dipersilahkan. Jawaban akan diposting dalam bagian QnA README ini.
