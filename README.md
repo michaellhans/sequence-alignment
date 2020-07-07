@@ -24,6 +24,9 @@ Terdapat dua titik capai dalam tugas ini :
 [2]Anda bisa saja menggunakan Needleman-Wunsch n-dimensi untuk melakukan MSA, akan tetapi ingat bahwa kompleksitasnya eksponensial terhadap jumlah sekuens. Anda disarankan menggunakan *progressive alignment* dengan menggunakan profiling.<br>
 
 ## Pengumpulan
+### Pengerjaan
+Silahkan lakukan *fork* dari *repository* ini.
+
 ### Deliverables
 1. File yang berisi hasil pensejajaran sekuens global. Misal , hasil pensejajaran antara sekuens pertama (file1.txt) dan sekuens kedua (file2.txt) ditulis sebagai file1_file2.txt. Simpan semua hasil pensejajaran dalam sebuah folder [result]. Format sebagai berikut : Misalkan dua buah sekuens yang dicoba adalah ATGTTATA dan ATCGTCC dengan pensejajaran global adalah AT_GTTATA dan ATCGT_C_C, maka baris pertama file adalah AT_GTTATA dan baris kedua adalah ATCGT_C_C. Bila pensejajaran dilakukan untuk lebih dari dua sekuens, format file mirip namun dengan baris yang lebih banyak. Tampilkan skor pensejajaran di awal.
 2. Kode Sumber. Bila anda menggunakan bahasa *compiled*, tuliskan cara melakukan kompilasi.
