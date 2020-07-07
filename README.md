@@ -36,6 +36,7 @@ Silahkan lakukan *fork* dari *repository* ini.
 
 ### Deliverables
 1. File yang berisi hasil pensejajaran sekuens global. Misal , hasil pensejajaran antara sekuens pertama (file1.fasta) dan sekuens kedua (file2.fasta) ditulis dalam folder /result/file1_file2/. Lalu dalam folder file1_file2, tuliksan hasil pensejajaran masing-masing file1.fasta dan file2.fasta sebagai file1.txt dan file2.txt. Tuliskan score dalam sebuah file score.txt. 
+2. Kode sumber. Tuliskan cara kompilasi bila menggunakan *compiled language*, namun lebih baik dilengkapi dengan Makefile.
 3. Ubah Readme ini. Tuliskan pendekatan pensejajaran yang anda lakukan dan cara menjalankan program.
 
 ### Teknis Pengumpulan
