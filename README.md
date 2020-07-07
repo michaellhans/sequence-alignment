@@ -1,5 +1,5 @@
 # sequence-alignment - \[closed, not accepting submission yet\]
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/RPLP0_90_ClustalW_aln.gif/640px-RPLP0_90_ClustalW_aln.gif" width="49%" height="50%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/RPLP0_90_ClustalW_aln.gif/640px-RPLP0_90_ClustalW_aln.gif" width="40%" height="50%">
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/An_excerpt_of_a_multiple_sequence_alignment_of_TMEM66_proteins.png" width="45%" height="50%">
 ## Deskripsi Masalah
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Sequence alignment* (pensejajaran sekuens) merupakan sebuah teknik dalam bioinformatika untuk melakukan pensejajaran antara dua buah string sekuens, misalkan sekuens asam amino atau nukleotid. Teknik ini banyak dipakai, misalkan dalam melakukan pencarian dalam sebuah basis data genom ataupun mengetahui keterkaitan organisme dalam studi filogeni.<br>
