@@ -1,4 +1,4 @@
-# sequence-alignment - \[closed, not accepting submission yet\]
+# sequence-alignment
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/RPLP0_90_ClustalW_aln.gif/640px-RPLP0_90_ClustalW_aln.gif" width="50%" height="50%" align="top"><img src="https://upload.wikimedia.org/wikipedia/commons/2/25/An_excerpt_of_a_multiple_sequence_alignment_of_TMEM66_proteins.png" width="50%" height="50%" align="top">
 
 ## Tujuan Tugas
