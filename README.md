@@ -15,9 +15,9 @@ Terdapat dua titik capai dalam tugas ini :
 2. Anda boleh mencari kode referensi, namun pastikan anda **menulis kode sendiri**. Pemahaman menjadi bagian penting dari penilaian.
 3. **Tidak diperbolehkan** menggunakan pustaka yang mengimplementasikan kedua algoritma, misal parasail atau BioPython. Usahakan untuk tidak menggunakan pustaka lain di luar pustaka standar / built-in.
 4. Gunakan file eksternal untuk melakukan pensejajaran. File eksternal berupa : (a) data (sekuens alfabet) , (b) scoring matrix , (c) alfabet sekuens.
-5. Berkaitan dengan nomor 4, pastikan anda dapat mengubah alfabet dari sekuens dan scoring matrix. Misalkan, alfabet pensejajaran sekuens basa nukleotid adalah ACGT, dan terdapat 20 alfabet untuk pensejajaran sekuens asam amino. Untuk scoring matrix pensejajaran asam amino, anda dapat menggunakan matriks PAM250.
+5. Berkaitan dengan nomor 4, pastikan anda dapat mengubah alfabet dari sekuens dan scoring matrix. Misalkan, alfabet pensejajaran sekuens basa nukleotid adalah ACGT, dan terdapat 20 alfabet untuk pensejajaran sekuens asam amino. Untuk scoring matrix pensejajaran asam amino, anda dapat menggunakan matriks PAM250. Adapun pensejajaran sekuens nukleotid dapat menggunakan aturan match(1) mismatch(-1) indel/gap(-1). Scoring konstan, tidak perlu menggunakan *affine scoring*.
 6. Format untuk nomor (4) dan (5) dibebaskan.
-7. Program disarankan cukup *terminal-based*.
+7. Program disarankan cukup *terminal-based*. 
 
 ## Tips
 [1]Pemrograman dinamis pensejajaran global yang naif, sayangnya memiliki kompleksitas ruang eksponensial. Sebagai contoh, bila anda membandingkan dua buah sekuens DNA dengan panjang ~29000, anda akan memerlukan ruang sekitar 29000 x 29000 ~ 784.000.000. Beberapa komputer mungkin tidak memiliki cukup memori. Gunakan *DnC* untuk membantu mengurangi kompleksitas ruang<br>
@@ -28,8 +28,7 @@ Terdapat dua titik capai dalam tugas ini :
 Silahkan lakukan *fork* dari *repository* ini.
 
 ### Deliverables
-1. File yang berisi hasil pensejajaran sekuens global. Misal , hasil pensejajaran antara sekuens pertama (file1.txt) dan sekuens kedua (file2.txt) ditulis sebagai file1_file2.txt. Simpan semua hasil pensejajaran dalam sebuah folder [result]. Format sebagai berikut : Misalkan dua buah sekuens yang dicoba adalah ATGTTATA dan ATCGTCC dengan pensejajaran global adalah AT_GTTATA dan ATCGT_C_C, maka baris pertama file adalah AT_GTTATA dan baris kedua adalah ATCGT_C_C. Bila pensejajaran dilakukan untuk lebih dari dua sekuens, format file mirip namun dengan baris yang lebih banyak. Tampilkan skor pensejajaran di awal.
-2. Kode Sumber. Bila anda menggunakan bahasa *compiled*, tuliskan cara melakukan kompilasi.
+1. File yang berisi hasil pensejajaran sekuens global. Misal , hasil pensejajaran antara sekuens pertama (file1.fasta) dan sekuens kedua (file2.fasta) ditulis dalam folder /result/file1_file2/. Lalu dalam folder file1_file2, tuliksan hasil pensejajaran masing-masing file1.fasta dan file2.fasta sebagai file1.txt dan file2.txt. Tuliskan score dalam sebuah file score.txt. 
 3. Ubah Readme ini. Tuliskan pendekatan pensejajaran yang anda lakukan dan cara menjalankan program.
 
 ### Teknis Pengumpulan
